@@ -9,10 +9,13 @@ namespace model
     public partial class dncContext : DbContext
     {
         public dncContext() {
-            // Configuration.ProxyCreationEnabled = false;
+            //Configuration.ProxyCreationEnabled = false;
             // Configuration.LazyLoadingEnabled = false;
         }
 
+        public dncContext(DbContextOptions<dncContext> options)
+            : base(options)
+        { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
