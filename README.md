@@ -1,1 +1,1 @@
-# dnc
+# DotNet Core WebApi Breeze Example
