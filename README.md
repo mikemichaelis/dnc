@@ -7,3 +7,6 @@
 * dotnet ef database update -s ../webapi/webapi.csproj
 * cd ../webapi
 * dotnet run
+
+* http://localhost:5000/api/Values
+* http://localhost:5000/breeze/Employee/Get
