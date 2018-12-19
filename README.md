@@ -10,3 +10,4 @@
 
 * http://localhost:5000/api/Values
 * http://localhost:5000/breeze/Employee/Get
+* http://localhost:5000/breeze/Employee/Metadata
